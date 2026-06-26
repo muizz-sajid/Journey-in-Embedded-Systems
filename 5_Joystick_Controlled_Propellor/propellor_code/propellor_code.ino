@@ -59,6 +59,7 @@ void loop() {
 
     int curr = digitalRead(buttonP);
     if (curr == 0){
+      control = false;
       break;
     }
   }
